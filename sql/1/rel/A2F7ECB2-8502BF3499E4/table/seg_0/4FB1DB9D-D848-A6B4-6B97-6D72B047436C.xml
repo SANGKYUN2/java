@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4FB1DB9D-D848-A6B4-6B97-6D72B047436C" schemaObject="AD920F22-AA08-BF6A-D0AC-B7D5AC2F1CF6" name="COURSES">
+<sourceConnName>%ED%95%99%EC%82%AC%EA%B4%80%EB%A6%AC</sourceConnName>
+<sourceObjSchema>HAKSA</sourceObjSchema>
+<sourceObjName>COURSES</sourceObjName>
+<createdBy>KOSMO</createdBy>
+<createdTime>2024-04-19 02:09:54 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LCODE" id="A7F936FA-A230-B5C0-57F0-40A18779AA9E">
+<sourceConnName>%ED%95%99%EC%82%AC%EA%B4%80%EB%A6%AC</sourceConnName>
+<sourceObjSchema>COURSES</sourceObjSchema>
+<sourceObjName>LCODE</sourceObjName>
+<createdBy>KOSMO</createdBy>
+<createdTime>2024-04-19 02:09:54 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LNAME" id="B4F816E2-3F72-E3DA-0E5A-88AED205A8AA">
+<sourceConnName>%ED%95%99%EC%82%AC%EA%B4%80%EB%A6%AC</sourceConnName>
+<sourceObjSchema>COURSES</sourceObjSchema>
+<sourceObjName>LNAME</sourceObjName>
+<createdBy>KOSMO</createdBy>
+<createdTime>2024-04-19 02:09:54 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOURS" id="9CC18FF8-7EA9-6B89-31D4-77DBF2E0D35B">
+<sourceConnName>%ED%95%99%EC%82%AC%EA%B4%80%EB%A6%AC</sourceConnName>
+<sourceObjSchema>COURSES</sourceObjSchema>
+<sourceObjName>HOURS</sourceObjName>
+<createdBy>KOSMO</createdBy>
+<createdTime>2024-04-19 02:09:54 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROOM" id="6E2C9523-3AC9-5870-485A-6C96312CD604">
+<sourceConnName>%ED%95%99%EC%82%AC%EA%B4%80%EB%A6%AC</sourceConnName>
+<sourceObjSchema>COURSES</sourceObjSchema>
+<sourceObjName>ROOM</sourceObjName>
+<createdBy>KOSMO</createdBy>
+<createdTime>2024-04-19 02:09:54 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INSTRUCTOR" id="E15F9C79-62C9-8CE3-4748-B8A1A811F0B1">
+<sourceConnName>%ED%95%99%EC%82%AC%EA%B4%80%EB%A6%AC</sourceConnName>
+<sourceObjSchema>COURSES</sourceObjSchema>
+<sourceObjName>INSTRUCTOR</sourceObjName>
+<createdBy>KOSMO</createdBy>
+<createdTime>2024-04-19 02:09:54 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="00785E20-17CF-E8D8-EB8C-B750B9098643" referredColumn="0324CC9E-83FA-506C-1624-DDEA8B1B04D6"/>
+</associations>
+</Column>
+<Column name="CAPACITY" id="78251D34-5933-73CF-7573-1590D08F66CE">
+<sourceConnName>%ED%95%99%EC%82%AC%EA%B4%80%EB%A6%AC</sourceConnName>
+<sourceObjSchema>COURSES</sourceObjSchema>
+<sourceObjName>CAPACITY</sourceObjName>
+<createdBy>KOSMO</createdBy>
+<createdTime>2024-04-19 02:09:54 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERSONS" id="B6F7AAFB-8A63-2FBB-0BB4-05C5E7696DF7">
+<sourceConnName>%ED%95%99%EC%82%AC%EA%B4%80%EB%A6%AC</sourceConnName>
+<sourceObjSchema>COURSES</sourceObjSchema>
+<sourceObjName>PERSONS</sourceObjName>
+<createdBy>KOSMO</createdBy>
+<createdTime>2024-04-19 02:09:54 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D50CC5A4-9DE5-87D1-915F-028DA892D7FB" schemaObject="AD920F22-AA08-BF6A-D0AC-B7D5AC2F1CF6" name="COURSES_PK">
+<sourceConnName>%ED%95%99%EC%82%AC%EA%B4%80%EB%A6%AC</sourceConnName>
+<sourceObjSchema>HAKSA</sourceObjSchema>
+<sourceObjName>SYS_C007027</sourceObjName>
+<createdBy>KOSMO</createdBy>
+<createdTime>2024-04-19 02:09:54 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7F936FA-A230-B5C0-57F0-40A18779AA9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2BB9473-AEAF-F31B-3921-514E8B77EC49" name="SYS_C007028">
+<createdBy>KOSMO</createdBy>
+<createdTime>2024-04-19 02:09:54 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E15F9C79-62C9-8CE3-4748-B8A1A811F0B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

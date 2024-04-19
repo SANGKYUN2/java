@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5029D092-C00A-F791-D7BE-E21C9CC60849" containerWithKeyObject="43676F6F-94A8-3A11-4386-7B69A065CE02" localFKIndex="0519DAED-CD73-B285-2EF5-D50628344951" name="SYS_C007033">
+<sourceConnName>%ED%95%99%EC%82%AC%EA%B4%80%EB%A6%AC</sourceConnName>
+<sourceObjSchema>HAKSA</sourceObjSchema>
+<sourceObjName>SYS_C007033</sourceObjName>
+<createdBy>KOSMO</createdBy>
+<createdTime>2024-04-19 02:10:30 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<referredTableLongName>HAKSA.STUDENTS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6E0F5A86-E475-4489-DBED-3AB160952E2D</referredTableID>
+<keyObject>42706537-3D3F-A9EC-AF9A-E6555E2DB9A0</keyObject>
+<referredKeyID>42706537-3D3F-A9EC-AF9A-E6555E2DB9A0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SCODE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
