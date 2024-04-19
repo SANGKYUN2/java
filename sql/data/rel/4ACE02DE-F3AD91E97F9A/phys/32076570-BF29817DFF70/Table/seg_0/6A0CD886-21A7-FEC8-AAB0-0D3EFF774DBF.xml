@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="SALE" directorySegmentName="seg_0" id="6A0CD886-21A7-FEC8-AAB0-0D3EFF774DBF">
+<createdBy>KOSMO</createdBy>
+<createdTime>2024-04-17 01:55:58 UTC</createdTime>
+<ownerDesignName>data</ownerDesignName>
+<schemaObject>3A12F116-05A3-E5AB-8983-41D6FB341A5A</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>4DDA33CF-67D2-18D7-8BA2-B74FE2C573FF</segment>
+<tableSpace>F89034C6-C3A1-3CC9-08FA-113DBCCCB4A4</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="QNT" id="42396296-C7C0-3B60-C500-9CD47DE4A8AD">
+<createdBy>KOSMO</createdBy>
+<createdTime>2024-04-17 01:55:58 UTC</createdTime>
+<ownerDesignName>data</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="SEQ" id="5ED6C87E-57AD-6A76-10C3-8E2BF7C7F098">
+<createdBy>KOSMO</createdBy>
+<createdTime>2024-04-17 01:55:58 UTC</createdTime>
+<ownerDesignName>data</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALE_DATE" id="6B24CEB4-203A-449C-15B3-2CCD89017A1B">
+<createdBy>KOSMO</createdBy>
+<createdTime>2024-04-17 01:55:58 UTC</createdTime>
+<ownerDesignName>data</ownerDesignName>
+<defaultValue>sysdate</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="CODE" id="E416EB73-0E4F-37D0-D51F-4BB3AAC3BFC1">
+<createdBy>KOSMO</createdBy>
+<createdTime>2024-04-17 01:55:58 UTC</createdTime>
+<ownerDesignName>data</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C006999" id="1F42BD87-859C-B3F5-29E3-8E1AE6F75037">
+<createdBy>KOSMO</createdBy>
+<createdTime>2024-04-17 01:55:58 UTC</createdTime>
+<ownerDesignName>data</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SALE_PK" id="9E8F4416-F478-A614-EDD0-86C40BB237BD">
+<createdBy>KOSMO</createdBy>
+<createdTime>2024-04-17 01:55:58 UTC</createdTime>
+<ownerDesignName>data</ownerDesignName>
+<schemaObject>3A12F116-05A3-E5AB-8983-41D6FB341A5A</schemaObject>
+<segment>0B343815-2C2C-5D92-EE95-5C536EA44EB1</segment>
+<tableSpace>F89034C6-C3A1-3CC9-08FA-113DBCCCB4A4</tableSpace>
+<indexSegment>0B343815-2C2C-5D92-EE95-5C536EA44EB1</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

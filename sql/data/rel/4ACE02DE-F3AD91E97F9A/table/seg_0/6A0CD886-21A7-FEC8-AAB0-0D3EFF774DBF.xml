@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6A0CD886-21A7-FEC8-AAB0-0D3EFF774DBF" schemaObject="3A12F116-05A3-E5AB-8983-41D6FB341A5A" name="SALE">
+<sourceConnName>%EC%83%81%ED%92%88%EA%B4%80%EB%A6%AC</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>SALE</sourceObjName>
+<createdBy>KOSMO</createdBy>
+<createdTime>2024-04-17 01:55:58 UTC</createdTime>
+<ownerDesignName>data</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SEQ" id="5ED6C87E-57AD-6A76-10C3-8E2BF7C7F098">
+<sourceConnName>%EC%83%81%ED%92%88%EA%B4%80%EB%A6%AC</sourceConnName>
+<sourceObjSchema>SALE</sourceObjSchema>
+<sourceObjName>SEQ</sourceObjName>
+<createdBy>KOSMO</createdBy>
+<createdTime>2024-04-17 01:55:58 UTC</createdTime>
+<ownerDesignName>data</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODE" id="E416EB73-0E4F-37D0-D51F-4BB3AAC3BFC1">
+<sourceConnName>%EC%83%81%ED%92%88%EA%B4%80%EB%A6%AC</sourceConnName>
+<sourceObjSchema>SALE</sourceObjSchema>
+<sourceObjName>CODE</sourceObjName>
+<createdBy>KOSMO</createdBy>
+<createdTime>2024-04-17 01:55:58 UTC</createdTime>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28E3974E-9A05-01BD-BD67-71CC06548183" referredColumn="46C8B4F0-2FD0-B83B-CE74-BD389CAE1073"/>
+</associations>
+</Column>
+<Column name="SALE_DATE" id="6B24CEB4-203A-449C-15B3-2CCD89017A1B">
+<sourceConnName>%EC%83%81%ED%92%88%EA%B4%80%EB%A6%AC</sourceConnName>
+<sourceObjSchema>SALE</sourceObjSchema>
+<sourceObjName>SALE_DATE</sourceObjName>
+<createdBy>KOSMO</createdBy>
+<createdTime>2024-04-17 01:55:58 UTC</createdTime>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QNT" id="42396296-C7C0-3B60-C500-9CD47DE4A8AD">
+<sourceConnName>%EC%83%81%ED%92%88%EA%B4%80%EB%A6%AC</sourceConnName>
+<sourceObjSchema>SALE</sourceObjSchema>
+<sourceObjName>QNT</sourceObjName>
+<createdBy>KOSMO</createdBy>
+<createdTime>2024-04-17 01:55:58 UTC</createdTime>
+<ownerDesignName>data</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E8F4416-F478-A614-EDD0-86C40BB237BD" schemaObject="3A12F116-05A3-E5AB-8983-41D6FB341A5A" name="SALE_PK">
+<sourceConnName>%EC%83%81%ED%92%88%EA%B4%80%EB%A6%AC</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>SYS_C006998</sourceObjName>
+<createdBy>KOSMO</createdBy>
+<createdTime>2024-04-17 01:55:58 UTC</createdTime>
+<ownerDesignName>data</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E416EB73-0E4F-37D0-D51F-4BB3AAC3BFC1"/>
+<colUsage columnID="6B24CEB4-203A-449C-15B3-2CCD89017A1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F42BD87-859C-B3F5-29E3-8E1AE6F75037" name="SYS_C006999">
+<createdBy>KOSMO</createdBy>
+<createdTime>2024-04-17 01:55:58 UTC</createdTime>
+<ownerDesignName>data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E416EB73-0E4F-37D0-D51F-4BB3AAC3BFC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

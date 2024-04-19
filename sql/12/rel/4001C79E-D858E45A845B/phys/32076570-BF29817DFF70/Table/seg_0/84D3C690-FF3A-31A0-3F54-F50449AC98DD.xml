@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PRODUCT" directorySegmentName="seg_0" id="84D3C690-FF3A-31A0-3F54-F50449AC98DD">
+<createdBy>KOSMO</createdBy>
+<createdTime>2024-04-18 01:04:12 UTC</createdTime>
+<ownerDesignName>12</ownerDesignName>
+<schemaObject>F74FFFB6-2107-46F1-BF16-7A1D4DCDE5C2</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>5B34CC96-B126-D4E1-5BD8-26F62F93EBB1</segment>
+<tableSpace>2AC7FDDC-D386-2B5B-E645-9840A3B55ADD</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PRICE" id="578A47DE-7748-EDA1-0438-C532D151B772">
+<createdBy>KOSMO</createdBy>
+<createdTime>2024-04-18 01:04:12 UTC</createdTime>
+<ownerDesignName>12</ownerDesignName>
+<defaultValue>1 /*상품값에 입력안하면 1 출력*/</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="77628A3A-0862-C594-5D6F-AC513BD59EC4">
+<createdBy>KOSMO</createdBy>
+<createdTime>2024-04-18 01:04:12 UTC</createdTime>
+<ownerDesignName>12</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODE" id="85B51134-969B-8CC3-4327-A7750E1CDFC4">
+<createdBy>KOSMO</createdBy>
+<createdTime>2024-04-18 01:04:12 UTC</createdTime>
+<ownerDesignName>12</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRODUCT_PK" id="BBCCB7D7-7F36-E11C-CA9C-9ACC9D492F85">
+<createdBy>KOSMO</createdBy>
+<createdTime>2024-04-18 01:04:12 UTC</createdTime>
+<ownerDesignName>12</ownerDesignName>
+<schemaObject>F74FFFB6-2107-46F1-BF16-7A1D4DCDE5C2</schemaObject>
+<segment>C54F3EED-57CA-E0AA-4012-5674A565A9B1</segment>
+<tableSpace>2AC7FDDC-D386-2B5B-E645-9840A3B55ADD</tableSpace>
+<indexSegment>C54F3EED-57CA-E0AA-4012-5674A565A9B1</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

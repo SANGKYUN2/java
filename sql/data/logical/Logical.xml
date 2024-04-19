@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="A82F88CF-147A-2D34-B252-D4027195A27A" mainViewID="C011A982-D611-0D78-18ED-DF357B57715E">
+<createdBy>KOSMO</createdBy>
+<createdTime>2024-04-17 01:52:51 UTC</createdTime>
+<ownerDesignName>data</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

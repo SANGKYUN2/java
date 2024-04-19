@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="12" id="EB7DA7D1-D0ED-5B8A-16FC-6935D331D2DD" version="3.5">
+<createdBy>KOSMO</createdBy>
+<createdTime>2024-04-18 01:03:07 UTC</createdTime>
+<ownerDesignName>12</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>EB7DA7D1-D0ED-5B8A-16FC-6935D331D2DD</designId>
+</OSDM_Design>
